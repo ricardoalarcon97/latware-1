@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Lat Ware Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { latblue: '#1c57eb' },
+                    fontFamily: { sans: ['-apple-system', 'BlinkMacSystemFont', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#fbfbfd] text-[#1d1d1f]">
+
+    <nav class="fixed w-full z-50 bg-[#fbfbfd]/80 backdrop-blur-md border-b border-gray-200/50">
+        <div class="max-w-[980px] mx-auto px-4 h-12 flex justify-between items-center text-xs font-medium">
+            <a href="index.html" class="opacity-80 hover:opacity-100"><img src="lwc_logo.svg" alt="LWC" class="h-4 w-auto"></a>
+            <div class="flex items-center space-x-6">
+                <a href="products.html" class="text-latblue">monoDot</a>
+                <a href="products.html" class="text-latblue">dropX</a>
+                <a href="support.html" class="opacity-80 hover:opacity-100">Support</a>
+                <a href="about.html" class="opacity-80 hover:opacity-100">About Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-40 pb-24 px-6">
+        <article class="max-w-2xl mx-auto">
+            <h1 class="text-4xl font-bold mb-8">Building the future from the equator.</h1>
+            
+            <div class="prose prose-lg text-gray-500 leading-relaxed">
+                <p class="mb-6">
+                    Lat Ware Company nace con una misión clara: eliminar la fricción entre el usuario y la tecnología. 
+                    Creemos que el software no debe ser solo funcional, debe ser invisible, rápido y estéticamente placentero.
+                </p>
+                <p class="mb-6">
+                    Con base en Ecuador, desarrollamos soluciones nativas para iOS que compiten con estándares globales. 
+                    Nuestros productos, <strong>monoDot</strong>, <strong>dropX</strong> y <strong>Verz</strong>, 
+                    son el resultado de una obsesión por el detalle y la velocidad.
+                </p>
+                <p>
+                    Somos LWC. We deliver speed.
+                </p>
+            </div>
+            
+            <div class="mt-20 border-t border-gray-200 pt-10">
+                <h3 class="text-sm font-bold uppercase tracking-wider text-gray-400 mb-4">Location</h3>
+                <p class="font-medium">Guayaquil, Ecuador</p>
+            </div>
+        </article>
+    </main>
+
+</body>
+</html>

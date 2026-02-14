@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Lat Ware Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { latblue: '#1c57eb' },
+                    fontFamily: { sans: ['-apple-system', 'BlinkMacSystemFont', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#fbfbfd] text-[#1d1d1f]">
+
+    <nav class="fixed w-full z-50 bg-[#fbfbfd]/80 backdrop-blur-md border-b border-gray-200/50">
+        <div class="max-w-[980px] mx-auto px-4 h-12 flex justify-between items-center text-xs font-medium">
+            <a href="index.html" class="opacity-80 hover:opacity-100"><img src="lwc_logo.svg" alt="LWC" class="h-4 w-auto"></a>
+            <div class="flex items-center space-x-6">
+                <a href="products.html" class="text-latblue">monoDot</a>
+                <a href="products.html" class="text-latblue">dropX</a>
+                <a href="support.html" class="opacity-80 hover:opacity-100">Support</a>
+                <a href="about.html" class="opacity-80 hover:opacity-100">About Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
+        <div class="text-center max-w-lg">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">How can we help?</h1>
+            <p class="text-xl text-gray-500 mb-10">
+                Selecciona un producto o contáctanos directamente para asistencia técnica.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+                <a href="#" class="block p-6 bg-white border border-gray-200 rounded-2xl hover:border-latblue transition-colors text-left shadow-sm">
+                    <span class="block font-bold mb-1">monoDot Support</span>
+                    <span class="text-sm text-gray-500">Troubleshooting & Guides</span>
+                </a>
+                <a href="#" class="block p-6 bg-white border border-gray-200 rounded-2xl hover:border-latblue transition-colors text-left shadow-sm">
+                    <span class="block font-bold mb-1">General Inquiries</span>
+                    <span class="text-sm text-gray-500">Business & Press</span>
+                </a>
+            </div>
+
+            <div class="text-center">
+                <p class="text-sm text-gray-400 mb-2">Direct contact</p>
+                <a href="mailto:contact@wareco.lat" class="text-2xl text-latblue font-semibold hover:underline">contact@wareco.lat</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

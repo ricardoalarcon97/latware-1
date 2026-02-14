@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Lat Ware Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { latblue: '#1c57eb' },
+                    fontFamily: { sans: ['-apple-system', 'BlinkMacSystemFont', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#fbfbfd] text-[#1d1d1f]">
+
+    <nav class="fixed w-full z-50 bg-[#fbfbfd]/80 backdrop-blur-md border-b border-gray-200/50">
+        <div class="max-w-[980px] mx-auto px-4 h-12 flex justify-between items-center text-xs font-medium">
+            <a href="index.html" class="opacity-80 hover:opacity-100"><img src="lwc_logo.svg" alt="LWC" class="h-4 w-auto"></a>
+            <div class="flex items-center space-x-6">
+                <a href="products.html" class="text-latblue">monoDot</a>
+                <a href="products.html" class="text-latblue">dropX</a>
+                <a href="support.html" class="opacity-80 hover:opacity-100">Support</a>
+                <a href="about.html" class="opacity-80 hover:opacity-100">About Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-24">
+        <div class="max-w-[980px] mx-auto px-6">
+            <h1 class="text-4xl font-bold mb-16 text-center">Our Lineup.</h1>
+
+            <section id="monodot" class="mb-32">
+                <div class="w-full h-[400px] md:h-[500px] bg-gray-200 rounded-[30px] mb-8 flex items-center justify-center text-gray-400">
+                    <p>Asset Area (iPhone render / UI)</p>
+                </div>
+                <div class="text-center max-w-2xl mx-auto">
+                    <h2 class="text-3xl font-bold mb-4">monoDot.</h2>
+                    <p class="text-xl text-gray-500 leading-relaxed mb-6">
+                        Minimalismo radical. Captura ideas instantáneamente vía chat o escribe en profundidad. 
+                        La aplicación de notas de iOS que respeta tu flujo de pensamiento.
+                    </p>
+                    <a href="#" class="text-latblue hover:underline text-lg">Descargar en App Store ›</a>
+                </div>
+            </section>
+
+            <hr class="border-gray-200 my-20">
+
+            <section id="dropx" class="mb-32">
+                <div class="w-full h-[400px] md:h-[500px] bg-blue-50 rounded-[30px] mb-8 flex items-center justify-center text-blue-300">
+                    <p>Asset Area (Transfer Animation)</p>
+                </div>
+                <div class="text-center max-w-2xl mx-auto">
+                    <h2 class="text-3xl font-bold mb-4">dropX.</h2>
+                    <p class="text-xl text-gray-500 leading-relaxed mb-6">
+                        La utilidad definitiva para mover archivos. Rápido, seguro y sin fricción.
+                        Diseñado para quienes valoran cada segundo.
+                    </p>
+                    <span class="inline-block px-4 py-1 rounded-full bg-blue-100 text-latblue text-xs font-bold uppercase tracking-wider">Coming Soon</span>
+                </div>
+            </section>
+            
+            <section class="opacity-60">
+                 <div class="text-center mt-20">
+                    <h3 class="text-2xl font-bold mb-2">Verz.</h3>
+                    <p class="text-gray-500">Redefining connection.</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>
